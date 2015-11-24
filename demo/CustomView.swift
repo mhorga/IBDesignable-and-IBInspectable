@@ -43,10 +43,10 @@ import UIKit
         label.textColor = .grayColor()
     }
     
-    override func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
-        text = " iPhone 6s"
-        let url = "http://i.telegraph.co.uk/multimedia/archive/03058/iphone_6_3058505b.jpg"
-        imageView.image = UIImage(data: NSData(contentsOfURL: NSURL(string: url)!)!)
-    }
+//    override func prepareForInterfaceBuilder() {
+//        super.prepareForInterfaceBuilder()
+//        label.text = " iPhone 6s Plus"
+//        let url = "http://i.telegraph.co.uk/multimedia/archive/03058/iphone_6_3058505b.jpg"
+//        imageView.image = UIImage(data: NSData(contentsOfURL: NSURL(string: url)!)!)
+//    }
 }
